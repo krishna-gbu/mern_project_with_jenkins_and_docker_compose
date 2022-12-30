@@ -48,5 +48,11 @@ docker-compose version
 `add proxy in react app in package.json file`
 ![image](https://user-images.githubusercontent.com/40553867/210099041-b1a4dbba-a914-4109-8da3-5dae8b52816d.png)
 
+### client docker file
+![image](https://user-images.githubusercontent.com/40553867/210102043-479dfc15-3580-44f5-bd08-dc1f8d815399.png)
 
+### node docker file
+![image](https://user-images.githubusercontent.com/40553867/210102083-ebc02ec5-0305-4594-bd05-c45ceffa2f00.png)
 
+### docker-compose file
+![image](https://user-images.githubusercontent.com/40553867/210102179-ff925c02-5a42-4041-8387-e6f8fcee90c3.png)
