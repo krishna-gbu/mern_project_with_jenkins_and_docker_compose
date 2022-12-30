@@ -6,7 +6,7 @@ services:
            hostname: "react"
            ports:
             - '3000:3000'
-           depneds_on:
+           depends_on:
             - backend     
       backend:
            build: ./node
