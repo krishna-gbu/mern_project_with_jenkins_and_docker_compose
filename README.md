@@ -26,3 +26,4 @@ sudo yum-config-manager \
 ```ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose```
 ### stack over flow
 ``` https://stackoverflow.com/questions/36685980/why-is-docker-installed-but-not-docker-compose```
+///
