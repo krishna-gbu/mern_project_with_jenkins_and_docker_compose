@@ -27,6 +27,12 @@ sudo yum-config-manager \
 ### stack over flow
 ``` https://stackoverflow.com/questions/36685980/why-is-docker-installed-but-not-docker-compose```
 
+`check docker compose version`
+```
+docker-compose version
+```
+![image](https://user-images.githubusercontent.com/40553867/210098857-95ee61b9-3a45-462d-b909-30f0519ce54b.png)
+
 
 ### node and express
 ![image](https://user-images.githubusercontent.com/40553867/210096826-6f025fa3-97b8-4174-b7ef-8540d8244f45.png)
@@ -39,3 +45,8 @@ sudo yum-config-manager \
 ![image](https://user-images.githubusercontent.com/40553867/210097042-1a709c66-b787-4a24-ad39-54c22b347e28.png)
 
 ##### connection between react and nodejs
+`add proxy in react app in package.json file`
+![image](https://user-images.githubusercontent.com/40553867/210099041-b1a4dbba-a914-4109-8da3-5dae8b52816d.png)
+
+
+
