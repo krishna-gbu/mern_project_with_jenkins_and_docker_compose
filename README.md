@@ -56,3 +56,25 @@ docker-compose version
 
 ### docker-compose file
 ![image](https://user-images.githubusercontent.com/40553867/210102179-ff925c02-5a42-4041-8387-e6f8fcee90c3.png)
+
+
+### jenkins file
+```
+pipeline {
+    agent {label "slave_6"}
+
+    stages {
+        stage('git scm') {
+            steps {
+              git branch: 'main', url: 'https://github.com/krishna-gbu/mern_project_with_jenkins_and_docker_compose.git'
+            }
+        }
+        stage('deploy mern app with docker compose') {
+            steps {
+                sh "docker-compose up -d"
+            }
+        }
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/40553867/210102298-000d6d04-4e35-452b-a7ab-2a153b68bd8b.png)
