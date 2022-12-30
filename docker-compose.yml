@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+      frontend:
+           build: ./client
+           container_name: "client"
+           hostname: "react"
+           ports:
+            - '3000:3000'
+           depneds_on:
+            - backend     
+      backend:
+           build: ./node
+           container_name: "node"
+           hostname: "node"
+           ports:
+            - '5000:5000'

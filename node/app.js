@@ -6,9 +6,7 @@ const cors = require("cors");
 app.use(cors());
 
 
-
 app.get("/api", async (req, res) => {
-   console.log(req.socket.remotePort); 
   try {
     let posts = await axios.get("/users/1");
     res.status(200).json(posts.data);
