@@ -71,10 +71,10 @@ pipeline {
         }
         stage('deploy mern app with docker compose') {
             steps {
-                sh "docker-compose up -d"
+                sh "sudo docker-compose up -d"
             }
         }
     }
 }
 ```
-![image](https://user-images.githubusercontent.com/40553867/210102298-000d6d04-4e35-452b-a7ab-2a153b68bd8b.png)
+
