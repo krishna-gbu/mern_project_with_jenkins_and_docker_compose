@@ -5,7 +5,6 @@ const cors = require("cors");
 
 app.use(cors());
 
-
 app.get("/api", async (req, res) => {
   try {
     let posts = await axios.get("/users/1");
