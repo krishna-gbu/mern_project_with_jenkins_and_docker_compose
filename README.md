@@ -57,11 +57,16 @@ docker-compose version
 ### docker-compose file
 ![image](https://user-images.githubusercontent.com/40553867/210102179-ff925c02-5a42-4041-8387-e6f8fcee90c3.png)
 
+### add proxy with nodejs container name (proxy:http://node:5000)
+![image](https://user-images.githubusercontent.com/40553867/210144118-79cecfdb-c864-4f9c-8ce7-b29c6f3b6a04.png)
+### axios fetch api data
+![image](https://user-images.githubusercontent.com/40553867/210144268-3fa7a08a-66c2-42e0-8104-6ab5a7d726de.png)
+
 
 ### jenkins file
 ```
 pipeline {
-    agent {label "slave_6"}
+    agent {label "slave_7"}
 
     stages {
         stage('git scm') {
@@ -71,10 +76,19 @@ pipeline {
         }
         stage('deploy mern app with docker compose') {
             steps {
+                sh "sudo docker-compose down"
+                sh "sudo docker-compose build --no-cache"
                 sh "sudo docker-compose up -d"
             }
         }
     }
 }
+
 ```
+### build
+![image](https://user-images.githubusercontent.com/40553867/210147068-775ba5aa-d788-457a-af42-69f64501a53a.png)
+
+![image](https://user-images.githubusercontent.com/40553867/210146746-945a8030-fb01-43e5-ae6e-ab41ff9bd897.png)
+
+![image](https://user-images.githubusercontent.com/40553867/210147158-27f3d4d7-2ed0-445a-b2b5-a9367b41ecf3.png)
 
