@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-     <h1>react fetch data from api</h1>
+     <h1>react fetch data from api </h1>
       <p>{JSON.stringify(posts)}</p>
     </div>
   );
