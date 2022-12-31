@@ -42,7 +42,6 @@ docker-compose version
 ### react 
 ![image](https://user-images.githubusercontent.com/40553867/210097016-41cf46e2-de60-44ad-a60e-b4bd76b2d4a9.png)
 
-![image](https://user-images.githubusercontent.com/40553867/210097042-1a709c66-b787-4a24-ad39-54c22b347e28.png)
 
 ##### connection between react and nodejs
 `add proxy in react app in package.json file`
